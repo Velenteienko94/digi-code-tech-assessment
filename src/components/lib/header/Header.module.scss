@@ -2,15 +2,22 @@
 
 .headerContainer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background-color: $color-orange;
   height: 2vh;
   padding: $spacing-m;
-
-  // margin: var() ;
 }
 
 .languageSelect {
   color: $color-dark-green;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: initial;
+
+  &:visited {
+    color: initial;
+  }
 }

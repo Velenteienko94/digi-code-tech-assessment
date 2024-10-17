@@ -1,0 +1,16 @@
+@import "@/app/styles/globals";
+
+.breedsPageConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.breedsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-m;
+  justify-content: center;
+  align-items: center;
+}

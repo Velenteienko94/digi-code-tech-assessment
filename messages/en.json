@@ -1,6 +1,14 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "title": "Welcome to the digi-code tech task solution",
+    "about": "Here are the list of the pages that use different approach of renders"
+  },
+  "BreedsPage": {
+    "title": "Here is the breeds list page",
+    "about": "On this page we can see some dogs breeds"
+  },
+  "BreedsDetailPage": {
+    "title": "Here is the breed details page",
+    "about": "On this page we can see some dog breed detail"
   }
 }
