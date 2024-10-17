@@ -1,12 +1,16 @@
 import { useTranslations } from "next-intl";
 
 import cls from "./BreedsPageModule.module.scss";
-import { useGetBreeds } from "@/hooks/useGetBreeds";
 import { BreedCard } from "@/components/lib/breed-card/BreedCard";
+import { IBreedListResp } from "@/interfaces";
 
-export const BreedsPageModule = () => {
+export const BreedsPageModule = ({
+  breeds,
+}: {
+  breeds: IBreedListResp | undefined;
+}) => {
   const t = useTranslations("BreedsPage");
-  const breedsList = useGetBreeds();
+  const breedsList = breeds?.data;
   if (!breedsList) {
     return <div>Sorry, something goes wrong, no data</div>;
   }
@@ -15,7 +19,7 @@ export const BreedsPageModule = () => {
       <h1>{t("title")}</h1>
       <h3>{t("about")}</h3>
       <div className={cls.breedsContainer}>
-        {breedsList?.breeds?.data?.map((breed) => (
+        {breedsList?.map((breed) => (
           <BreedCard
             key={breed?.id}
             id={breed?.id}

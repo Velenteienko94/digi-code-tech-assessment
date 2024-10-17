@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import cls from "./BaseLayout.module.scss";
 import { Header } from "..";
 

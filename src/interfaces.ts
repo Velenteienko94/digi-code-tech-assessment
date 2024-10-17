@@ -14,8 +14,10 @@ export interface IBreedDetailstResp {
     attributes: {
       name: string;
       description: string;
-      min_life: number;
-      max_life: number;
+      life: {
+        max: number;
+        min: number;
+      };
       hypoallergenic: boolean;
     };
   };

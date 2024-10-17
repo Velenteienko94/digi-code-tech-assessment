@@ -34,7 +34,7 @@ export const BreedCard = ({
           <span>{hypoallergenic ? "yes" : "no"}</span>
         </p>
       )}
-      {max_life && (
+      {!max_life && (
         <Link className={cls.linkStyle} href={`breeds/${id}`}>
           Go to details
         </Link>

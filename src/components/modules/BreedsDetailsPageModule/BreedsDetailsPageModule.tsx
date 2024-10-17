@@ -25,8 +25,8 @@ export const BreedsDetailsPageModule = () => {
           id={breed?.id}
           name={breed?.attributes?.name}
           description={breed?.attributes?.description}
-          max_life={breed?.attributes?.max_life}
-          min_life={breed?.attributes?.min_life}
+          max_life={breed?.attributes?.life?.max}
+          min_life={breed?.attributes?.life?.min}
           hypoallergenic={breed?.attributes?.hypoallergenic}
         />
       </div>
