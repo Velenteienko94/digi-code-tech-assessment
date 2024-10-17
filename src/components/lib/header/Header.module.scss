@@ -1,0 +1,15 @@
+@import "@/app/styles/globals";
+
+.headerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $color-orange;
+  height: 2vh;
+  padding: $spacing-m;
+  // margin: var() ;
+}
+
+.languageSelect {
+  color: $color-dark-green;
+}
