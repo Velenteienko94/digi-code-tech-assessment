@@ -1,0 +1,12 @@
+@import "@/app/styles/globals";
+
+.switcherContainer {
+  color: $color-dark-green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switcherLabel {
+  margin-right: $spacing-s;
+}

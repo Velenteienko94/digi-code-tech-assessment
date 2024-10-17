@@ -1,0 +1,23 @@
+@import "@/app/styles/globals";
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-orange;
+  height: 2vh;
+  padding: $spacing-m;
+}
+
+.languageSelect {
+  color: $color-dark-green;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: initial;
+
+  &:visited {
+    color: initial;
+  }
+}

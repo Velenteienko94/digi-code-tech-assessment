@@ -1,0 +1,14 @@
+{
+  "HomePage": {
+    "title": "Willkommen bei der technischen Aufgabenlösung von Digi-Code",
+    "about": "Hier ist die Liste der Seiten, die unterschiedliche Render-Ansätze verwenden"
+  },
+  "BreedsPage": {
+    "title": "Hier ist eine statische Seite",
+    "about": "Auf dieser Seite können wir einige schöne Hündchen sehen"
+  },
+  "BreedsDetailPage": {
+    "title": "Hier ist die Seite mit den Rassedetails",
+    "about": "Auf dieser Seite können wir einige Details zu Hunderassen sehen"
+  }
+}
